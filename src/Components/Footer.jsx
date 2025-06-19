@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="w-full">
       {/* Top Footer Banner */}
-      <div className="relative bg-[url('/footer_image.jpg')] bg-cover bg-center bg-no-repeat ">
+      <div className="relative bg-[url('/footer_image.jpg')] bg-cover bg-center bg-no-repeat  min-h-[300px] md:min-h-[400px]">
         <div className="absolute inset-0 bg-black/40 z-0"></div>
 
         <div className="relative z-10 flex flex-col justify-center items-start px-6 md:px-24  py-16">

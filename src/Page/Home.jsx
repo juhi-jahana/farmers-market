@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Gallery from '../Components/Gallery';
 import Sponsors from '../Components/Sponsors';
-import Footer from '../Components/Footer';
 
 const Home = () => {
   return (
@@ -80,6 +79,8 @@ const Home = () => {
 
 <div><Sponsors/></div>
 {/* <div><Footer/></div> */}
+
+
 
 
     </>

@@ -7,7 +7,7 @@ const Mainlayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-24 bg-white">
+      <main className="flex-grow  bg-white">
         <Outlet />
       </main>
       <Footer />

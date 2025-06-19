@@ -6,7 +6,7 @@ import Sponsors from '../Components/Sponsors';
 const Home = () => {
   return (
     <>
-      <div className="relative min-h-[100vh] bg-[url('/heroimage.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative min-h-screen bg-[url('/heroimage.jpg')] bg-cover bg-center bg-no-repeat">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
 

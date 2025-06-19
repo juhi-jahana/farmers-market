@@ -13,7 +13,7 @@ const sponsorImages = [
 
 const Sponsors = () => {
   return (
-    <section className="py-20 bg-white text-center">
+    <section className=" bg-white text-center">
       <h2 className="text-2xl md:text-4xl font-bold mb-8">
         A Special Thanks to Our Sponsors
       </h2>

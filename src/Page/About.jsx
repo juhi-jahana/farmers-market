@@ -32,7 +32,7 @@ const About = () => {
   ];
   return (
     <>
-      <div className="relative min-h-[500px] md:min-h-[300px] bg-[url('/aboutimage1.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative flex flex-col items-center bg-[url('/aboutimage1.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute top-[40%] left-[25%] transform -translate-x-1/2 -translate-y-1/2 px-4 md:px-8">
           <h1 className="text-white text-3xl md:text-5xl  mb-6 leading-snug">About Us</h1>
@@ -81,34 +81,36 @@ const About = () => {
 
       {/* Centered YouTube Video */}
 
-      <div className="relative w-full h-[600px]">
-        <div className="absolute inset-0 z-10 flex items-center justify-center">
-          <div className="w-[300px] md:w-[760px] aspect-video">
-            <iframe
-              className="w-full h-full  shadow-lg"
-              src="https://www.youtube.com/embed/FkQuawiGWUw"
-              title="YouTube video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+      <div className="relative w-full min-h-[700px] md:h-[500px]">
+  {/* YouTube Video Overlay Centered */}
+  <div className="absolute inset-0 z-10 flex items-center justify-center px-4">
+    <div className="w-full max-w-[300px] md:max-w-[760px] aspect-video">
+      <iframe
+        className="w-full h-full shadow-lg"
+        src="https://www.youtube.com/embed/FkQuawiGWUw"
+        title="YouTube video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+  </div>
 
-        {/* Two Side-by-Side Divs */}
-        <div className="flex flex-col md:flex-row w-full h-full">
-          {/* Left: White Empty Div */}
-          <div className="w-full md:w-1/2 bg-white"></div>
+  {/* Background Divs */}
+  <div className="flex flex-row w-full h-full">
+    {/* Left: White Div */}
+    <div className="w-full md:w-1/2 bg-white h-[550px] md:h-full"></div>
 
-          {/* Right: Image with White Overlay */}
-          <div className="w-full md:w-1/2 relative">
-            <div
-              className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: "url('aboutimage3.jpg')" }}
-            ></div>
-            <div className="absolute inset-0 bg-white opacity-70"></div>
-          </div>
-        </div>
-      </div>
+    {/* Right: Image with White Overlay */}
+    <div className="w-full md:w-1/2 relative h-[550px] md:h-full">
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: "url('aboutimage3.jpg')" }}
+      ></div>
+      <div className="absolute inset-0 bg-white opacity-70"></div>
+    </div>
+  </div>
+</div>
+
 
       {/* our programs... */}
       <div className=" flex flex-col md:flex-row gap-10 md:gap-16 lg:gap-32 px-8 py-14 md:px-16 md:py-20 lg:px-40 lg:py-28">

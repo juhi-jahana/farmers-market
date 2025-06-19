@@ -10,7 +10,7 @@ import lgZoom from 'lightgallery/plugins/zoom';
 
 const Gallery = () => {
   return (
-    <div className="p-5 m-0 w-full h-full">
+    <div className="p-5 m-0 w-full ">
       <LightGallery
         speed={500}
         plugins={[lgThumbnail, lgZoom]}
@@ -41,10 +41,10 @@ const Gallery = () => {
         </a>
 
         {/* Veg3 & Veg4 - Bottom Right (Side by Side) */}
-        <div className="flex w-full h-full gap-0">
+        <div className="flex w-full h-full gap-5">
           <a
             href="/veg3.jpg"
-            className="w-1/2 h-full relative group overflow-hidden"
+            className="w-1/2 h-full relative group "
           >
             <img
               src="/veg3.jpg"
@@ -54,7 +54,7 @@ const Gallery = () => {
           </a>
           <a
             href="/veg4.jpg"
-            className="w-1/2 h-full relative group overflow-hidden"
+            className="w-1/2 h-full relative group "
           >
             <img
               src="/veg4.jpg"

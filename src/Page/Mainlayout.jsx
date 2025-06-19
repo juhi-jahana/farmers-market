@@ -2,19 +2,17 @@ import React from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import { Outlet } from 'react-router-dom';
-import './Mainlayout.css'; 
 
 export const Mainlayout = () => {
-  
   return (
-    <React.Fragment>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      
-      <main className="pt-24 min-h-[100vh] bg-white">
+
+      <main className="pt-24 flex-grow bg-white">
         <Outlet />
       </main>
-      
+
       <Footer />
-    </React.Fragment>
+    </div>
   );
 };

@@ -19,24 +19,24 @@ const Gallery = () => {
         {/* Veg1 - Left Full Height */}
         <a
           href="/veg1.jpg"
-          className="w-full h-full md:row-span-2 relative group overflow-hidden"
+          className="w-full  md:row-span-2 relative group "
         >
           <img
             src="/veg1.jpg"
             alt="Veg 1"
-            className="w-full h-full object-cover transition duration-300 group-hover:brightness-75"
+            className="w-full  object-cover transition duration-300 group-hover:brightness-75"
           />
         </a>
 
         {/* Veg2 - Top Right */}
         <a
           href="/veg2.jpg"
-          className="w-full h-full relative group overflow-hidden"
+          className="w-full  relative group "
         >
           <img
             src="/veg2.jpg"
             alt="Veg 2"
-            className="w-full h-full object-cover transition duration-300 group-hover:brightness-75"
+            className="w-full object-cover transition duration-300 group-hover:brightness-75"
           />
         </a>
 

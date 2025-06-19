@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Market = () => {
   return (
-    <div>Market</div>
-  )
-}
+    <div className="min-h-screen flex items-center justify-center">
+      <p className="text-gray-500 text-lg">Market Page Coming Soon...</p>
+    </div>
+  );
+};
 
-export default Market
+export default Market;

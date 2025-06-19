@@ -7,12 +7,9 @@ const Mainlayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      
-      {/* Content that pushes the footer down */}
       <main className="flex-grow pt-24 bg-white">
         <Outlet />
       </main>
-
       <Footer />
     </div>
   );

@@ -14,7 +14,7 @@ const Gallery = () => {
       <LightGallery
         speed={500}
         plugins={[lgThumbnail, lgZoom]}
-        elementClassNames="grid grid-cols-1 md:grid-cols-2 gap-5  w-full h-screen"
+        elementClassNames="grid grid-cols-1 md:grid-cols-2 gap-5  w-full    "
       >
         {/* Veg1 - Left Full Height */}
         <a

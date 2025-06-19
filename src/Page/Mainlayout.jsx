@@ -7,11 +7,9 @@ export const Mainlayout = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-
-      <main className="pt-24 flex-grow bg-white">
+      <main className="flex-grow pt-24 bg-white">
         <Outlet />
       </main>
-
       <Footer />
     </div>
   );

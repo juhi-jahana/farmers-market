@@ -5,15 +5,13 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaRss } from "react-icons/fa";
 
-const HeroSection = () => {
+const Footer = () => {
   return (
     <>
-      {/* Hero Section */}
       <div className="relative bg-[url('/footer_image.jpg')] bg-cover bg-center bg-no-repeat min-h-[600px] md:min-h-[700px]">
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40 z-0"></div>
 
-        {/* Centered Content */}
         <div className="relative z-10 flex flex-col justify-center items-start px-6 md:px-24 h-full py-16">
           <h1 className="text-white text-4xl md:text-6xl font-normal pb-6 leading-snug">
             Become a Merchant <br /> or Donate Today!
@@ -35,7 +33,6 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Footer Section */}
       <div className="bg-[#1A1A1A] text-gray-400 py-6">
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm mb-4 md:mb-0">Powered by Digital Lime Green</p>
@@ -51,4 +48,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default Footer;

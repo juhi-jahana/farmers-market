@@ -82,34 +82,34 @@ const About = () => {
       {/* Centered YouTube Video */}
 
       <div className="relative w-full min-h-[700px] md:h-[500px]">
-  {/* YouTube Video Overlay Centered */}
-  <div className="absolute inset-0 z-10 flex items-center justify-center px-4">
-    <div className="w-full max-w-[300px] md:max-w-[760px] aspect-video">
-      <iframe
-        className="w-full h-full shadow-lg"
-        src="https://www.youtube.com/embed/FkQuawiGWUw"
-        title="YouTube video"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    </div>
-  </div>
+        {/* YouTube Video Overlay Centered */}
+        <div className="absolute inset-0 z-10 flex items-center justify-center px-4">
+          <div className="w-full max-w-[300px] md:max-w-[760px] aspect-video">
+            <iframe
+              className="w-full h-full shadow-lg"
+              src="https://www.youtube.com/embed/FkQuawiGWUw"
+              title="YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
-  {/* Background Divs */}
-  <div className="flex flex-row w-full h-full">
-    {/* Left: White Div */}
-    <div className="w-full md:w-1/2 bg-white h-[550px] md:h-full"></div>
+        {/* Background Divs */}
+        <div className="flex flex-row w-full h-full">
+          {/* Left: White Div */}
+          <div className="w-full md:w-1/2 bg-white h-[550px] md:h-full"></div>
 
-    {/* Right: Image with White Overlay */}
-    <div className="w-full md:w-1/2 relative h-[550px] md:h-full">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('aboutimage3.jpg')" }}
-      ></div>
-      <div className="absolute inset-0 bg-white opacity-70"></div>
-    </div>
-  </div>
-</div>
+          {/* Right: Image with White Overlay */}
+          <div className="w-full md:w-1/2 relative h-[550px] md:h-full">
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{ backgroundImage: "url('aboutimage3.jpg')" }}
+            ></div>
+            <div className="absolute inset-0 bg-white opacity-70"></div>
+          </div>
+        </div>
+      </div>
 
 
       {/* our programs... */}
@@ -144,40 +144,40 @@ const About = () => {
         ))}
       </div>
 
- {/* form... */}
-    <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-52 lg:py-40">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-        {/* Left Content */}
-        <div>
-          <h2 className="text-3xl md:text-4xl font-semibold text-gray-600 mb-4">Stay in Touch</h2>
-          <p className="text-gray-600 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
+      {/* form... */}
+      <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-52 lg:py-40">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+          {/* Left Content */}
+          <div>
+            <h2 className="text-3xl md:text-4xl font-semibold text-gray-600 mb-4">Stay in Touch</h2>
+            <p className="text-gray-600 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
 
-        {/* Right Form */}
-        <form className="space-y-4">
-          <input
-            type="text"
-            placeholder="Name"
-            className="w-full px-4 py-3 border-none bg-white  rounded focus:outline-none"
-          />
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full px-4 py-3 border-none bg-white  focus:outline-none"
-          />
-          <button
-            type="submit"
-            className="w-full bg-[#02D002] text-white font-semibold py-3 rounded hover:bg-[#00b800] transition"
-          >
-            Subscribe Now
-          </button>
-        </form>
+          {/* Right Form */}
+          <form className="space-y-4">
+            <input
+              type="text"
+              placeholder="Name"
+              className="w-full px-4 py-3 border-none bg-white  rounded focus:outline-none"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              className="w-full px-4 py-3 border-none bg-white  focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="w-full bg-[#02D002] text-white font-semibold py-3 rounded hover:bg-[#00b800] transition"
+            >
+              Subscribe Now
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
-  
+
 
 
 

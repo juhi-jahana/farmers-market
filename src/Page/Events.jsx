@@ -54,7 +54,7 @@ const EventList = () => {
   return (
     <>
       {/* Top Banner Section */}
-      <div className="relative w-full h-[50vh] bg-[url('/aboutimage2.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative w-full h-[50vh] bg-[url('/eventfront.jpeg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <div className="absolute top-1/2 left-6 sm:left-12 md:left-24 transform -translate-y-1/2 z-20">
           <h1 className="text-white text-2xl sm:text-3xl md:text-5xl leading-snug">Upcoming Events</h1>

@@ -12,11 +12,11 @@ const Market = () => {
           <div className="absolute inset-0 bg-black/40"></div>
           {/* Text Content */}
           <div className="absolute z-10 top-[30%] left-[10%] md:left-[15%] lg:left-[17%] w-[70%] max-w-2xl space-y-10">
-            <h1 className="text-white text-2xl md:text-4xl lg:text-6xl font-normal">
+            <h1 className="text-white text-4xl md:text-4xl lg:text-6xl font-normal">
               Farmers Market
             </h1>
 
-            <p className="text-white text-base md:text-lg lg:text-xl ">
+            <p className="text-white text-xl md:text-lg lg:text-xl ">
               Mauris porta nulla vitae aliquam luctus. Vestibulum non tempus libero. Sed ultricies diam ligula, vitae vestibulum lectus aliquam ut.
               Quisque ut justo a arcu luctus hendrerit nec at nisi. Nullam pulvinar rutrum faucibus.
             </p>

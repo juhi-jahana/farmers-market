@@ -7,8 +7,10 @@ import Handling from './Page/Handling';
 import Market from './Page/Market';
 import Donate from './Page/Donate';
 import Blog from './Page/Blog';
+import Landing from './Page/Landing'
 import Contact from './Page/Contact';
 import BlogDetails from "./Components/BlogDetails";
+
 
 const App = () => {
   return (
@@ -20,6 +22,7 @@ const App = () => {
           <Route path="/market" element={<Market/>}></Route>
           <Route path="/events" element={<EventList/>}></Route>
           <Route path="/blog" element={<Blog/>}></Route>
+          <Route path="/landing" element={<Landing/>}></Route>
           <Route path="/donate" element={<Donate/>}></Route>
           <Route path="/handling" element={<Handling/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>

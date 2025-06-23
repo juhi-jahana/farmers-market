@@ -7,7 +7,7 @@ const About = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const features = [
+  const programs = [
     {
       title: "Organic Produce",
       description:
@@ -32,10 +32,11 @@ const About = () => {
   ];
   return (
     <>
-      <div className="relative flex flex-col items-center bg-[url('/aboutimage1.jpg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="absolute top-[40%] left-[25%] transform -translate-x-1/2 -translate-y-1/2 px-4 md:px-8">
-          <h1 className="text-white text-3xl md:text-5xl  mb-6 leading-snug">About Us</h1>
+     
+     <div className="relative w-full h-[50vh] bg-[url('/aboutimage2.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-black/40 z-10"></div>
+        <div className="absolute top-1/2 left-6 sm:left-12 md:left-24 transform -translate-y-1/2 z-20">
+          <h1 className="text-white text-2xl sm:text-3xl md:text-5xl leading-snug">About Us</h1>
         </div>
       </div>
 
@@ -128,7 +129,7 @@ const About = () => {
       {/* three image... */}
       <div className="max-w-7xl mx-auto px-4 sm:px-4 md:px-6 lg:px-8 py-12 grid md:grid-cols-3 gap-10">
 
-        {features.map((feature, index) => (
+        {programs.map((feature, index) => (
           <div key={index} className="flex flex-col">
             <img src={feature.img} alt={feature.title} className="w-full h-96  object-cover " />
             <h2 className="mt-6 text-xl font-semibold text-gray-800">{feature.title}</h2>

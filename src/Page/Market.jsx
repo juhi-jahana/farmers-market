@@ -7,7 +7,7 @@ const Market = () => {
     < >
 
       <div>
-        <div className="relative min-h-[100dvh] bg-[url('/veg2.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="relative w-full h-[50dvh] bg-[url('/veg2.jpg')] bg-cover bg-center bg-no-repeat">
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/40"></div>
           {/* Text Content */}
@@ -95,86 +95,86 @@ const Market = () => {
           </div>
         </div>
         <div className="flex items-start gap-4 max-w-3xl mx-auto my-10 p-10 lg:p-0">
-  {/* Orange Vertical Line */}
-  <div className="w-6 bg-[#e74c3c] h-65 mt-3 lg:h-60 lg:mt-1  "></div>
+          {/* Orange Vertical Line */}
+          <div className="w-6 bg-[#e74c3c] h-65 mt-3 lg:h-60 lg:mt-1  "></div>
 
-  {/* Blockquote Text */}
-  <blockquote className="italic text-gray-800 text-2xl lg:text-5xl font-normal leading-14">
-    Nulla aliquet nisl a augue blandit suscipit. Aenean sed convallis nibh. Sed ut dui vitae lacus elementum cursus.
-  </blockquote>
-</div>
-{/* map... */}
-<div className="max-w-5xl mx-auto my-12 shadow-2xl rounded-xl overflow-hidden">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513954.2012039889!2d102.5319461378047!3d2.073012098516854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d225303e8ed%3A0x477a0331a2a2047a!2sEastpoint%20Mall!5e0!3m2!1sen!2sin!4v1750380483140!5m2!1sen!2sin"
-    width="100%"
-    height="450"
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    className="w-full h-[450px] border-0"
-  ></iframe>
-</div>
-
-{/* supporting... */}
-
-<div className="max-w-3xl mx-auto px-5 py-15 lg:px-16 lg:py-20 text-left">
-  <h2 className="text-4xl font-normal text-gray-800 mb-6">
-    Supporting Local Farmers & Sustainable Agriculture since 1945
-  </h2>
-  
-  <p className="text-lg text-gray-500 leading-relaxed mb-6 text-left">
-   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
-   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
-  </p>
-
-  <p className="text-lg text-gray-500 leading-relaxed text-left">
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue blandit ante pharetra varius at tempus ligula. Mauris consectetur sollicitudin est, vitae varius libero. Aliquam vitae mattis justo, ut ultrices felis. Donec iaculis sem id justo viverra, quis auctor mi iaculis. Etiam venenatis gravida orci id elementum. Aliquam pharetra eros massa, id maximus ipsum laoreet vel.
-    Maecenas at elementum nisl, eget aliquet justo. Vivamus ut pretium elit.
-  </p>
-</div>
-<div className="lg:mt-20">  
-<Gallery/>
-</div>
-
-<div className="lg:mt-20">  
-<Sponsors />
-</div>
-
-     {/* form... */}
-      <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-52 lg:py-40 lg:mt-20">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
-          {/* Left Content */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-semibold text-gray-600 mb-4">Join The NEWS Letter</h2>
-            <p className="text-gray-600 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-
-          {/* Right Form */}
-          <form className="space-y-4">
-            <input
-              type="text"
-              placeholder="Name"
-              className="w-full px-4 py-3 border-none bg-white  rounded focus:outline-none"
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              className="w-full px-4 py-3 border-none bg-white  focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="w-full bg-[#02D002] text-white font-semibold py-3 rounded hover:bg-[#00b800] transition"
-            >
-              Subscribe Now
-            </button>
-          </form>
+          {/* Blockquote Text */}
+          <blockquote className="italic text-gray-800 text-2xl lg:text-5xl font-normal leading-14">
+            Nulla aliquet nisl a augue blandit suscipit. Aenean sed convallis nibh. Sed ut dui vitae lacus elementum cursus.
+          </blockquote>
         </div>
-      </div>
-     
+        {/* map... */}
+        <div className="max-w-5xl mx-auto my-12 shadow-2xl rounded-xl overflow-hidden">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513954.2012039889!2d102.5319461378047!3d2.073012098516854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d225303e8ed%3A0x477a0331a2a2047a!2sEastpoint%20Mall!5e0!3m2!1sen!2sin!4v1750380483140!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="w-full h-[450px] border-0"
+          ></iframe>
+        </div>
+
+        {/* supporting... */}
+
+        <div className="max-w-3xl mx-auto px-5 py-15 lg:px-16 lg:py-20 text-left">
+          <h2 className="text-4xl font-normal text-gray-800 mb-6">
+            Supporting Local Farmers & Sustainable Agriculture since 1945
+          </h2>
+
+          <p className="text-lg text-gray-500 leading-relaxed mb-6 text-left">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+          </p>
+
+          <p className="text-lg text-gray-500 leading-relaxed text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel augue blandit ante pharetra varius at tempus ligula. Mauris consectetur sollicitudin est, vitae varius libero. Aliquam vitae mattis justo, ut ultrices felis. Donec iaculis sem id justo viverra, quis auctor mi iaculis. Etiam venenatis gravida orci id elementum. Aliquam pharetra eros massa, id maximus ipsum laoreet vel.
+            Maecenas at elementum nisl, eget aliquet justo. Vivamus ut pretium elit.
+          </p>
+        </div>
+        <div className="lg:mt-20">
+          <Gallery />
+        </div>
+
+        <div className="lg:mt-20">
+          <Sponsors />
+        </div>
+
+        {/* form... */}
+        <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-52 lg:py-40 lg:mt-20">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+            {/* Left Content */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-semibold text-gray-600 mb-4">Join The NEWS Letter</h2>
+              <p className="text-gray-600 text-base">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+
+            {/* Right Form */}
+            <form className="space-y-4">
+              <input
+                type="text"
+                placeholder="Name"
+                className="w-full px-4 py-3 border-none bg-white  rounded focus:outline-none"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full px-4 py-3 border-none bg-white  focus:outline-none"
+              />
+              <button
+                type="submit"
+                className="w-full bg-[#02D002] text-white font-semibold py-3 rounded hover:bg-[#00b800] transition"
+              >
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+
 
 
 

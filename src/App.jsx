@@ -2,12 +2,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import  Mainlayout  from './Page/Mainlayout';
 import Home from './Page/Home';
 import About from './Page/About';
-import Events from './Page/Events';
+import EventList from './Page/Events';
 import Handling from './Page/Handling';
 import Market from './Page/Market';
 import Donate from './Page/Donate';
 import Blog from './Page/Blog';
 import Contact from './Page/Contact';
+import BlogDetails from "./Components/BlogDetails";
 
 const App = () => {
   return (
@@ -17,11 +18,12 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="/about" element={<About/>}></Route>
           <Route path="/market" element={<Market/>}></Route>
-          <Route path="/events" element={<Events/>}></Route>
+          <Route path="/events" element={<EventList/>}></Route>
           <Route path="/blog" element={<Blog/>}></Route>
           <Route path="/donate" element={<Donate/>}></Route>
           <Route path="/handling" element={<Handling/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/post/:id" element={<BlogDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

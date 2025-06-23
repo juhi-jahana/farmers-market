@@ -133,7 +133,7 @@ function Header() {
                   setShowSearch((prev) => !prev);
                   closeMenu();
                 }}
-                className="text-gray-600 hover:text-black focus:outline-none"
+                className="text-gray-600 hover:text-black focus:outline-none  cursor-pointer"
               >
                 <FaSearch />
               </button>

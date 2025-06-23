@@ -18,7 +18,7 @@ const Sponsors = () => {
         A Special Thanks to Our Sponsors
       </h2>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-4">
         {sponsorImages.map((src, index) => (
           <div key={index} className="bg-white  p-10 ">
             <img
